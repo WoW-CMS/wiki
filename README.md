@@ -1,6 +1,6 @@
-# AzerothCore WIKI
+# BlizzCMS WIKI
 
-Wiki for the AzerothCore Project available here: http://azerothcore.github.io/wiki
+Wiki for the BlizzCMS Project available here: https://wow-cms.github.io/wiki/
 
 ## How to install locally (development)
 
@@ -27,5 +27,5 @@ bundle exec jekyll serve
 
 If everything succeds, you can visit your web app at `http://127.0.0.1:4000/`.
 
-Any problems? [Open a issue](https://github.com/azerothcore/wiki/issues/new).
+Any problems? [Open a issue](https://github.com/WoW-CMS/wiki/issues/new).
 
