@@ -51,3 +51,11 @@ GRANT ALL PRIVILEGES ON `blizzcms` . * TO 'acore'@'localhost' WITH GRANT OPTION;
 - And in the fifth and sixth, we give permissions to the user on those databases.
 
 **Note:** You do not have to create 2 auth databases, the auth database, you usually create it, while compiling the emulator, but for practical purposes, here we explain how you can do it. [Thanks to AzerothCore, for the sql script](https://github.com/azerothcore/azerothcore-wotlk/blob/master/data/sql/create/create_mysql.sql).
+
+> 6 queries executed, 6 success, 0 errors, 1 warning
+
+![migration_successful](https://user-images.githubusercontent.com/2810187/144518673-3a5e6d1c-e737-4ccd-bd1d-04c3d172e74a.png)
+
+If all the data is correct, you will get to the next screen.
+
+![migration_finish](https://user-images.githubusercontent.com/2810187/144518947-6ef0cb80-df06-4c30-82a5-71590f25c768.png)
