@@ -27,3 +27,39 @@ You will also need to enable php extensions and apache modules.
 - [openssl](https://www.php.net/manual/en/book.openssl.php)
 - [soap](https://www.php.net/manual/en/class.soapclient.php)
 - [gmp](https://www.php.net/manual/en/book.gmp.php)
+
+### Some configurations to be made in linux
+
+Since the emulator uses the apache2 mod_rewrite, in order to write friendly URLs. It is necessary to enable this module. In case you are using a terminal. If you are using a web hosting, this configuration must be done by your provider.
+
+**Note:** Before hiring a hosting server or VPS, make sure that they enable the necessary ports or that they have all the extensions, because not all services sometimes offer that.
+
+## Some configurations
+
+#### Apache Modules
+
+You can use the following command to enable the apache extensions mentioned above.
+
+```sh
+a2enmod headers
+a2enmod rewrite
+a2enmod expires
+```
+
+#### Edit Sites Available
+
+/etc/apache2/sites-available/000-default.conf
+
+For the mod_rewrite to work correctly and generate friendly URLs, it is necessary to have permissions on the directory where the CMS is located, commonly, located in `/var/www/html`.
+
+```
+<Directory "/var/www/html">
+    AllowOverride All
+</Directory>
+```
+
+#### Restarting the service
+
+```sh
+/etc/init.d/apache2 restart
+```
