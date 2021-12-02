@@ -1,3 +1,7 @@
+---
+redirect_from: "/"
+---
+
 # _BlizzCMS Plus_
 
 [![Project Status](https://img.shields.io/badge/Status-In_Development-yellow.svg?style=flat-square)](#)
