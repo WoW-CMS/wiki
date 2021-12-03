@@ -44,7 +44,7 @@ GRANT ALL PRIVILEGES ON `acore_auth` . * TO 'acore'@'localhost' WITH GRANT OPTIO
 GRANT ALL PRIVILEGES ON `blizzcms` . * TO 'acore'@'localhost' WITH GRANT OPTION;
 ```
 
-- In the first line, we delete the user, if it does not exist.
+- In the first line, we delete the user, if it exists.
 - In the second one, we create it, establishing name, connection mode and password.
 - In the third and fourth, we create the auth database and the cms table.
 - And in the fifth and sixth, we give permissions to the user on those databases.
