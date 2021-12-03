@@ -10,7 +10,7 @@ As you can see in the image, the CMS has some built-in validations. This means t
 
 - **Website Database Hostname:** This is the domain name or ip of the database to be used by the cms.
 
-In contraction, we give you some examples:
+Here are some examples:
 - `localhost` → If you are working in a test environment.
 - `200.50.29.300` → a public ip.
 - `wow-cms.com` → a domain where associated to the machine or webhosting where you are installing.
