@@ -8,8 +8,8 @@ To contribute to BlizzCMS, you need:
 - We are currently using Codeigniter 3 as framework.
 
 ## For frontend developers
-- The default framework used is [UIkit](https://getuikit.com/?target=_blank).
-- You can create your own themes, if you want, using [Bootstrap](https://getbootstrap.com/?target=_blank).
+- The default framework used is <a href="https://getuikit.com/" target="_blank">UIkit</a>.
+- You can create your own themes, if you want, using <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>.
 - Basic knowledge in JavaScript, JQuery
 
 You can also help with translations.
