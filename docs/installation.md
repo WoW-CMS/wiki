@@ -8,7 +8,7 @@ When [downloading](https://github.com/WoW-CMS/BlizzCMS/archive/refs/heads/master
 
 As you can see in the image, the CMS has some built-in validations. This means that if these validations are not met, the button to install it will not appear no matter how many times you fill in the form fields. Below, we provide information on what to complete in the forms.
 
-**Website Database Hostname:** This is the domain name or ip of the database to be used by the cms.
+- **Website Database Hostname:** This is the domain name or ip of the database to be used by the cms.
 
 In contraction, we give you some examples:
 - `localhost` → If you are working in a test environment.
@@ -17,13 +17,12 @@ In contraction, we give you some examples:
 
 **Note:** By default, the port is 3306 in MySQL. But if you change the port, you can use the following format: `localhost:3310` for example.
 
-**Website Database Name:** This is the name of the database to be used by the cms.
+- **Website Database Name:** This is the name of the database to be used by the cms.
 
-Remember that the CMS creates the tables by means of migrations, but it does not create the database, it must be created manually.
+(Remember that the CMS creates the tables by means of migrations, but it does not create the database, it must be created manually).
 
-**Website Database Username:** User with access to the cms database, to make changes. SELECT, INSERT INTO, UPDATE, DELETE
-
-**Website Database Password:** Password, of the above mentioned user.
+- **Website Database Username:** User with access to the cms database, to make changes. SELECT, INSERT INTO, UPDATE, DELETE
+- **Website Database Password:** Password, of the above mentioned user.
 
 In the second form, the data from the emulator's auth database are requested. I do not repeat again what the fields mean, because basically it is the same as above, only, that it is possible to change the user, the port or even the hostname. It all depends on the project and the configuration that each one has, the security, the servers...
 
@@ -59,3 +58,17 @@ GRANT ALL PRIVILEGES ON `blizzcms` . * TO 'acore'@'localhost' WITH GRANT OPTION;
 If all the data is correct, you will get to the next screen.
 
 ![migration_finish](https://user-images.githubusercontent.com/2810187/144518947-6ef0cb80-df06-4c30-82a5-71590f25c768.png)
+
+- **Server Name:** This is the name of the server. For example: `BlizzCMS test`.
+- **Realmlist:** The hostname or IP to access the server. For example: `wow-cms.com` or `200.52.28.177`.
+- **Expansion:** Emulator expansion. For example: `Wrath of the Lich King`.
+- **Discord Invitation ID:** The ID of the discord invitation URL.
+
+For example, if the invitation is: https://discord.com/invite/QXhHZpbeu5. Just enter `QXhHZpbeu5`.
+
+- **Emulator:** The type of encryption the emulator uses. `SRP6`, `Hex`...
+- **Bnet Enabled?:** Does the emulator use bnet?
+
+> In case you make a mistake, do not worry. Changes can be made later in the configuration file.
+
+![finish_migration](https://user-images.githubusercontent.com/2810187/144524017-eaf2f466-7c9e-4581-be78-cf6cd49473e3.png)
