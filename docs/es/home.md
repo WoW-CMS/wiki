@@ -1,5 +1,5 @@
 ---
-redirect_from: "/es/"
+redirect_from: "/es"
 ---
 
 # _BlizzCMS Plus_
