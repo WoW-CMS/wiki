@@ -72,3 +72,11 @@ For example, if the invitation is: https://discord.com/invite/QXhHZpbeu5. Just e
 > In case you make a mistake, do not worry. Changes can be made later in the configuration file.
 
 ![finish_migration](https://user-images.githubusercontent.com/2810187/144524017-eaf2f466-7c9e-4581-be78-cf6cd49473e3.png)
+
+If all goes well, you should see an image similar to this one.
+
+![home](https://user-images.githubusercontent.com/2810187/144524538-ac6282fc-1d39-40f0-937d-cdaf621537a6.png)
+
+The BlizzCMS community and the WOW-CMS staff would like to kindly ask you not to remove the credits from the footer. This is the only way to make the CMS known to people who don't know about it yet, and maybe find developers interested in participating in the project.
+
+Thank you for downloading and using BlizzCMS.
