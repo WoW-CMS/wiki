@@ -6,7 +6,7 @@ remote_theme: pangolp/git-wiki-blizzcms@master
 # (string) Title of your wiki
 title: BlizzCMS
 # (string) Description of your wiki
-description: Wiki and Documentation of the BlizzCMS project
+description: Wiki and Documentation of the BlizzCMS project. Based on Drassil Git-Wiki. Retrieved from the AzerothCore repository.
 # (boolean) Enable/disable wiki page list in sidebar
 show_wiki_pages: true
 # (integer) Maximum number of wiki page to shown in sidebar
