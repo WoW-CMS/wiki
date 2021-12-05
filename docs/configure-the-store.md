@@ -36,6 +36,12 @@ After we create the category, we can create the items of the store: `en/admin/st
 
 Next, we will go into detail with the information.
 
-- In the case of the item, the item id, only the item id, must be added. Followed by the quantity, if necessary.
+- In the case of the item, the item id, `only the item id`, must be added. Followed by the quantity, if necessary.
+
 > Ex. 12345:2 That would send item 12345, with a quantity of 2 units.
+
 > You can also send several items, leaving a space between them. Ex. 12345:2 54321:4
+
+- If the type of item is `money`, the amount should be specified. Remember that it is in `copper`.
+- In the case of the `level`, you have to assign the number. For example: 80.
+- The last 4 options do not require any command. Since then, the person who buys the item in the store must select the person to whom he/she wants to send it. But from the point of view of creating the item, no command must be specified.
